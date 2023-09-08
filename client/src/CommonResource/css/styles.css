@@ -1,0 +1,39 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.bg-light-grey {
+  background-color: #f5f5f7;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.description-wrapper {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.video-title {
+  color: rgb(10, 10, 10);
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+}
+.p-date {
+  font-size: 15px;
+}

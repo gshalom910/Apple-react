@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add tables</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <br /><br /><br />
+      <h2>Products Management</h2>
+      <form action="http://localhost:3111/add-product" method="post">
+        <div class="form-group">
+          <label for="name">Product Url:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="p_url"
+            placeholder="Enter Product url"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Product Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="p_name"
+            placeholder="Enter Product name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Description:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="p_desc"
+            placeholder="Enter Product Description"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Breif Description:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="p_bDesc"
+            placeholder="Enter Breif Description"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Product Image:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="p_img"
+            placeholder="Enter Product img link"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Product Link:</label>
+          <input type="text" class="form-control" name="p_link" />
+        </div>
+        <div class="form-group">
+          <label for="email">Starting Price:</label>
+          <input type="text" class="form-control" name="startPrice" />
+        </div>
+        <div class="form-group">
+          <label for="email">Price Range:</label>
+          <input type="text" class="form-control" name="priceRange" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <br /><br /><br />
+    </div>
+  </body>
+</html>
